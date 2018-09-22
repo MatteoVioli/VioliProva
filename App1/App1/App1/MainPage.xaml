@@ -32,7 +32,7 @@
         <Entry x:Name="txtNum2" Text="" Margin="5" BackgroundColor="Yellow" VerticalOptions="CenterAndExpand" Grid.Row="3" Grid.Column="3"></Entry>
         <Button x:Name="btnSomma" Text="Somma!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnButtonClicked" ></Button>
         <Label x:Name="lblRisultato" Text="0" HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="LightBlue"></Label>
+               VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Red"></Label>
     </Grid>
 
 </ContentPage>
