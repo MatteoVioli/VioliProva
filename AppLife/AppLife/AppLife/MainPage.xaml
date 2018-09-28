@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TestAndroidApp"
+             x:Class="TestAndroidApp.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="lblSaluto" Text="La mia prima app!" HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="LightBlue"></Label>
+        <Label Text="Inserisci il primo numero" Margin="5" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" VerticalOptions="CenterAndExpand"></Label>
+        <Entry x:Name="txtNum1" Text="" Margin="5" BackgroundColor="Yellow" VerticalOptions="CenterAndExpand" Grid.Row="2" Grid.Column="3"></Entry>
+        <Label Text="Inserisci il secondo numero" Margin="5" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" VerticalOptions="CenterAndExpand"></Label>
+        <Entry x:Name="txtNum2" Text="" Margin="5" BackgroundColor="Yellow" VerticalOptions="CenterAndExpand" Grid.Row="3" Grid.Column="3"></Entry>
+        <Button x:Name="btnSomma" Text="Somma!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnButtonClicked" ></Button>
+        <Label x:Name="lblRisultato" Text="0" HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" Margin="5" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="LightBlue"></Label>
+    </Grid>
+
+</ContentPage>
